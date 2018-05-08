@@ -1,21 +1,20 @@
 html, body {
     width: 100%;
 }
-
-
 body {
 	font-size: 10pt;
 	font-family: arial, sans-serif;
-}
-a {
-	text-decoration: none;
+    margin: inline-block;
 }
 button {
 	font-weight: bold;
 	font-family: Arial, Helvetica, sans-serif;
 }
 .top-toolbar {
-	height: 40px;
+    height: 40px;
+    background-color: cornflowerblue;
+    margin: inline-block;
+    display: block;
 }
 .top-toolbar nav {
 	margin: inline-block;
@@ -24,9 +23,6 @@ button {
 .top-toolbar nav a {
 	margin: 3px 6px;
 	color: rgb(78, 70, 70);
-}
-.top-toolbar nav a:hover {
-	color: rgba(0,0,0);
 }
 .top-toolbar nav button {
     padding-top: 7px;
@@ -65,8 +61,7 @@ button {
 .search-bar {
     max-width: 80%;
 }
-.search input:focus {
-	outline: none;
+.search input:text {
 	border: 1px solid rgb(70, 69, 168);
 }
 .search button {
@@ -80,32 +75,30 @@ button {
 	color: rgb(78, 70, 70);
 	
 }
-
 footer {
 	position: fixed;
 	bottom: 0;
  	height: 50px;
  	width: 100%;
- 	font-size: 10pt;
-	
+    font-size: 10pt;
+    background-color: rgb(168, 161, 161);
  }
 .footer-left {
-	float: left;
+	align-content: left;
 	margin-left: 15px;
 }
 .footer-right {
 	float: right;
 	margin-right: 15px;
 }
-
 footer nav {
 	display: inline-block;
     padding-top: 15px;
     padding-right:  0;
     padding-bottom:  0;
     padding-left:  0;
+    
 }
-
 footer nav a {
  	padding: 3px 14px;
  	color: rgb(8, 7, 8);
@@ -114,11 +107,13 @@ footer nav a {
 .kitty:hover {
     height: 500px;
     left: 50px;
+}
+.signin {
+    border: border-box 1px solid black;
+    background-color: cornflowerblue;
+    align-items: right;
     
 }
-
-
-
 .man {
     height: 100px;
     border:1px solid red;
@@ -128,7 +123,6 @@ footer nav a {
     background-size: contain;
     background-position: center center;
 }
-
 .man:hover {
     background-image: url("bmm.jpg");
     height: 400px;
