@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 20px;
+}
+
+
+* {
+    color: fuchsia;
+}
+
+h1 {
+    color: blue;
+    font-size: 100px;
+}
+
+p {
+    color: black;
+    font-size: 45px;
+}
+
+header {
+    color: red;
+    font-family: 'Courier New', Courier, monospace
+}
+
+ul {
+    font-style: Bold;
+
+}
+
+li {
+    font-family: fantasy;
+    font-style: green;
+}
+
+head {
+    background-image: "furious.jpg";
+}
+
+p {
+    color: aqua;
+    background-image: "furious.jpg"
+}
+
+html {
+    background-image: "furious.jpg";
+}
+
+header {
+    background-image: "furious.jpg";
+}
