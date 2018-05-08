@@ -11,12 +11,15 @@ html {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     background-repeat: no-repeat;
+    padding: 12px;
     padding-top: 90px;
+    width: 300px;
+    
 }
 
 img src {
     padding-top: 90px;
-    
+
 }
 .career-support {
     background-image: url("https://creativemarket.com/chudtsankov/1587103-Smiling-Black-And-White-Balloon/screenshots/#screenshot1)";
