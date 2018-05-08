@@ -1,3 +1,8 @@
+html, body {
+    width: 100%;
+}
+
+
 body {
 	font-size: 10pt;
 	font-family: arial, sans-serif;
@@ -40,10 +45,11 @@ button {
 .search {
 	text-align: center;
 	clear: both;
-	margin-top: 11%;
+    margin-top: 11%;
+    width: 100%;
 }
 .logo {
-	max-width: 21%;
+	height: 100px;
 	margin: 0 auto;
 }
 .search img {
@@ -111,3 +117,19 @@ footer nav a {
     
 }
 
+
+
+.man {
+    height: 100px;
+    border:1px solid red;
+    background-image: url("bm.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position: center center;
+}
+
+.man:hover {
+    background-image: url("bmm.jpg");
+    height: 400px;
+}
