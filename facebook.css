@@ -1,0 +1,48 @@
+
+
+.body { 
+    background: blue;
+    height: 100%;
+    width: 100%;
+}
+.header1 {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: rgb(65, 13, 177);
+    top: 0;
+    left: 0;
+    color: white;
+   }
+
+
+#img3{left:85px;
+    height: 40px;
+    top: 10px;
+}
+
+#searcharea {top: 17px;
+    left: 220px;
+    height: 40px;
+}
+#searchbox{
+    width:500px;
+    height: 25px;
+    background: white;
+    padding: 5px;
+    outline: none;
+    border-radius: 10px/10px;
+    background-image:url(sr.jpg);
+    background-position: 465px;
+    background-repeat: no-repeat;
+}
+#profilearea {top:15px;
+    left:795px;
+    height:40px;
+}
+#profilereal {top:20px;
+left:830px;
+height:20px;
+font-size:20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
