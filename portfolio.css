@@ -10,8 +10,15 @@ html, body {
     font-size: 5px; 
     font-family: Helvetica, sans-serif;
     text-align: left;
-
 }
+.about {
+    background-color: rgb(112, 100, 100);
+    
+    text-align: center
+}
+
+
+
 .dan {
     background-image:url("dan.jpg");
 }
@@ -49,8 +56,6 @@ html, body {
     justify-content: left;    
     color: green;
     width: 300px;
-    
-    
 }
 
 .copter {
