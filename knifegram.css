@@ -1,0 +1,105 @@
+.html, body {
+    height:100%;
+    width:100%;
+} 
+
+.theTop {
+    border: solid 2px grey;
+    display: flex;
+    padding: 2px;
+    width: 140px;
+    justify-content: center;
+    margin: left;
+    }
+
+.western {
+        width:200px;
+        height:200px;
+        box-sizing:border-box;
+        padding-left: 200px;
+        background: url('west.jpg');
+        max-width: 100%;
+        max-height: 100%;
+        border: 1px solid pink;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: cornflowerblue;
+      }
+      .western {
+        width:200px;
+        height:200px;
+        box-sizing:border-box;
+        padding-left: 200px;
+        background: url('westi.jpg');
+        max-width: 100%;
+        max-height: 100%;
+        border: 1px solid pink;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: cornflowerblue;
+      }
+      .western {
+        width:200px;
+        height:200px;
+        box-sizing:border-box;
+        padding-left: 200px;
+        background: url('westii.jpg');
+        max-width: 100%;
+        max-height: 100%;
+        border: 1px solid pink;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: cornflowerblue;
+      }
+      .western {
+        width:200px;
+        height:200px;
+        box-sizing:border-box;
+        padding-left: 200px;
+        background: url('westiii.jpg');
+        max-width: 100%;
+        max-height: 100%;
+        border: 1px solid pink;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: cornflowerblue;
+      }
+      .western {
+        width:200px;
+        height:200px;
+        box-sizing:border-box;
+        padding-left: 200px;
+        background: url('westiiii.jpg');
+        max-width: 100%;
+        max-height: 100%;
+        border: 1px solid pink;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: cornflowerblue;
+      }
+      .western {
+        width:200px;
+        height:200px;
+        box-sizing:border-box;
+        padding-left: 200px;
+        background: url('west.jpg');
+        max-width: 100%;
+        max-height: 100%;
+        border: 1px solid pink;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: cornflowerblue;
+      }
+      #mainImageLinks  {
+        display: inline-block;
+        display: flex;
+        float: right;
+        padding: 3px; 
+
+     }
